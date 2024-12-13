@@ -8,12 +8,11 @@ namespace Tyuiu.ChashkovTA.Sprint4.Task4.V19.Lib
         {
             int sum = 0;
 
-            // Проходим по всем элементам массива
-            for (int i = 0; i < matrix.GetLength(0); i++) // Пройдем по строкам
+            for (int i = 0; i < matrix.GetLength(0); i++) 
             {
-                for (int j = 0; j < matrix.GetLength(1); j++) // Пройдем по столбцам
+                for (int j = 0; j < matrix.GetLength(1); j++) 
                 {
-                    if (matrix[i, j] % 2 != 0) // Проверка на нечетность
+                    if (matrix[i, j] % 2 != 0) 
                     {
                         sum += matrix[i, j];
                     }
